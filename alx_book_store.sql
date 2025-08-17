@@ -18,7 +18,7 @@ CREATE TABLE Customers (
     address TEXT
 );
 CREATE TABLE Orders (
-    order_id Primary Key
+    order_id  INT Primary Key
     customer_id Foreign Key
     order_date DATE
 );
